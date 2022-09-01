@@ -1,32 +1,35 @@
 header {
-  margin-top: 52px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1394px;
-  border: 1px solid;
-  padding: 10px;
+	margin-top: 52px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1394px;
+	border: 1px solid;
+	padding: 10px;
+}
+body {
+	background-color: #f9f9ff;
 }
 
 .main-section {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 1px solid;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 1px solid;
 }
 
 .article {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 1px solid;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 1px solid;
 }
 
 footer {
-  margin-top: 10px;
-  border: 1px solid;
-  padding-top: 167px;
-  height: 557px;
-  padding-bottom: 43px;
+	margin-top: 10px;
+	border: 1px solid;
+	padding-top: 167px;
+	height: 557px;
+	padding-bottom: 43px;
 }
