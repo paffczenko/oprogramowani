@@ -39,12 +39,6 @@ footer {
 }
 
 
-.logo-home{
-  width:55px;
-  height: 55px;
-}
-
-
 .logo-container{
   width: 269px;
   height: 55px;
@@ -54,9 +48,17 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 52px;
+  margin-top: 50px;
+  margin-bottom: 103px;
   margin-left: 150px;
 }
+.logo-home{
+  width:55px;
+  height: 55px;
+}
+
+
+
 
 
 .logo-text{
@@ -96,8 +98,7 @@ p{
   }
 
 .nav{
-  margin-right: 150px;
-  margin-top: 30px;
+ justify-content: center;
 }
  
   .contact-us{
@@ -108,9 +109,6 @@ p{
   background-color:white;
   border: 1px solid #FFFFFF;
   border-radius: 30px;
-  height: 50px;
-  width: 171px;
-  
   }
 
 
@@ -119,3 +117,29 @@ p{
 }
 
 
+.text{
+  display: flex;
+  justify-content: space-between; 
+}
+
+
+.text-container{
+  width: 646px;
+  height: 446px;
+  margin-right: 58px;
+  margin-left: 150px;
+  border: 1px solid;
+}
+
+
+.text-1{
+  font-size: 55px;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+}
+
+.long-text{
+  color: white;
+  font-size: 24px;
+}
