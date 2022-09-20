@@ -113,13 +113,13 @@ a {
 }
 
 .text-container {
-  width: 646px;
   height: 446px;
   margin-right: 58px;
   margin-left: 150px;
 }
 
 .text-1 {
+  width: 646px;
   margin-top: 0px;
   font-size: 55px;
   color: white;
@@ -132,7 +132,10 @@ a {
   color: white;
   font-size: 24px;
   margin-bottom: 24px;
+  width: 686px;
+  text-align: justify;
 }
+
 
 .explore {
   font-size: 24px;
@@ -143,15 +146,22 @@ a {
 
 .telephones {
   display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   width: 1260px;
 }
 .plan {
-  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
   height: 500px;
   border: 1px solid white;
   border-radius: 40px;
   background-color: white;
-  margin-right: 20px;
+  margin-left: 58px;
+  
 }
 
 .phone-1 {
@@ -162,12 +172,15 @@ a {
 }
 
 .welcome {
-  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
   height: 600px;
   border: 1px solid white;
   border-radius: 40px;
   background-color: white;
-  margin-right: 20px;
+ 
   align-items: center;
 }
 
@@ -179,11 +192,15 @@ a {
 }
 
 .trip {
-  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
   height: 500px;
   border: 1px solid white;
   border-radius: 40px;
   background-color: white;
+  margin-right: 73px;
 }
 
 .phone-3 {
@@ -231,3 +248,43 @@ a {
   font-size: 24px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.woman{
+  display: inline-flex;
+  width: 120px;
+  flex-direction: column-reverse
+}
+
+
+.heart{
+  display: inline-flex;
+  width: 120px;
+  flex-direction: column-reverse
+}
+
+
+.family{
+  display: inline-flex;
+  width: 120px;
+  flex-direction: column-reverse
+}
+
+
+.skip{
+font-size: 14px;
+display: flex;
+align-items: flex-end;
+justify-content: flex-start;
+align-content: space-between;
+}
+
+
+.next{
+font-size: 14px;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+align-content: space-between;
+
+}
+
