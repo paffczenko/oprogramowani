@@ -9,6 +9,11 @@ header {
   height: 937.33px;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .main-section {
   margin-top: 100px;
   margin-left: auto;
@@ -136,7 +141,6 @@ a {
   text-align: justify;
 }
 
-
 .explore {
   font-size: 24px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -151,6 +155,7 @@ a {
   align-items: center;
   width: 1260px;
 }
+
 .plan {
   display: flex;
   justify-content: center;
@@ -161,14 +166,32 @@ a {
   border-radius: 40px;
   background-color: white;
   margin-left: 58px;
-  
 }
 
 .phone-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   color: blue;
-  text-align: center;
-  justify-content: center;
   font-size: 30px;
+  width: 100%;
+  padding: 24px;
+}
+
+.phone-1 > p {
+  margin-top: 0px;
+  font-size: 16px;
+  color: black;
+}
+
+.phone-1 > h2 {
+  text-align: center;
+}
+
+.phone-1 > img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .welcome {
@@ -180,7 +203,7 @@ a {
   border: 1px solid white;
   border-radius: 40px;
   background-color: white;
- 
+
   align-items: center;
 }
 
@@ -249,42 +272,36 @@ a {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.woman{
+.woman {
   display: inline-flex;
   width: 120px;
-  flex-direction: column-reverse
+  flex-direction: column-reverse;
 }
 
-
-.heart{
+.heart {
   display: inline-flex;
   width: 120px;
-  flex-direction: column-reverse
+  flex-direction: column-reverse;
 }
 
-
-.family{
+.family {
   display: inline-flex;
   width: 120px;
-  flex-direction: column-reverse
+  flex-direction: column-reverse;
 }
 
-
-.skip{
-font-size: 14px;
-display: flex;
-align-items: flex-end;
-justify-content: flex-start;
-align-content: space-between;
+.skip {
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-content: space-between;
 }
 
-
-.next{
-font-size: 14px;
-display: flex;
-align-items: flex-end;
-justify-content: flex-end;
-align-content: space-between;
-
+.next {
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: space-between;
 }
-
