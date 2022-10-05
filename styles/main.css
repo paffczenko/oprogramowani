@@ -22,20 +22,16 @@ h2 {
   border: 1px solid;
 }
 
-.article {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 1px solid;
-}
 
 footer {
-  margin-top: 10px;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
   border: 1px solid;
-  padding-top: 167px;
+  padding: 10px;
+  background-color: #EBEBF8;
   height: 557px;
-  padding-bottom: 43px;
 }
 
 .home {
@@ -160,7 +156,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 280px;
   height: 500px;
   border: 1px solid white;
   border-radius: 40px;
@@ -198,27 +194,47 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
+  width: 310px;
   height: 600px;
   border: 1px solid white;
   border-radius: 40px;
   background-color: white;
-
   align-items: center;
 }
 
 .phone-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   color: blue;
-  text-align: center;
-  justify-content: center;
   font-size: 30px;
+  width: 100%;
+  padding: 24px;
 }
+
+.phone-2 > p {
+  margin-top: 0px;
+  font-size: 16px;
+  color: black;
+}
+
+.phone-2 > h2 {
+  text-align: center;
+}
+
+.phone-2 > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .trip {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 280px;
   height: 500px;
   border: 1px solid white;
   border-radius: 40px;
@@ -227,11 +243,47 @@ a {
 }
 
 .phone-3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   color: blue;
-  text-align: center;
-  justify-content: center;
   font-size: 30px;
+  width: 100%;
+  padding: 24px;
 }
+
+.phone-3 > p {
+  margin-top: 0px;
+  font-size: 16px;
+  color: black;
+}
+
+.phone-3 > h2 {
+  text-align: center;
+}
+
+.phone-3 > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markers{
+  display: inline-flex; 
+  justify-content: space-between;
+}
+.marker{
+  border: 1px solid blue;
+  border-radius: 100px;
+  width: 20px;
+  height: 8px;
+  
+}
+
+.marker .active{
+  background-color: blue;
+}
+
 
 .button-download {
   background-color: white;
@@ -305,3 +357,108 @@ a {
   justify-content: flex-end;
   align-content: space-between;
 }
+
+
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  width: 1620px;
+  margin-bottom: 400px;
+}
+
+
+.feedback{
+display: inline-flex;
+}
+
+
+.feedback-container {
+  height: 689px;
+ 
+}
+
+
+h1{
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+
+}
+
+
+.text-feed{
+  font-size: 24px;
+  width: 895px;
+  text-align: justify;
+  color: #707070;
+  margin-top: 17px;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+
+.men{
+  border: 1px solid rgba(199, 199, 217, 0.887);
+  background-color: rgba(199, 199, 217, 0.887);
+  width: 1620px;
+  height: 547px;
+}
+
+
+.stars{
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars>p{
+  font-size: 24px;
+}
+
+.read{
+border: 1px solid #00000029;
+background-color:#00000029 ;
+border-radius: 20px;
+width: 257px;
+height: 73px;
+padding: 27px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+
+.read>p{
+  font-size: 24px;
+}
+
+.read-arrow{
+    background-color: white;
+    display: inline-flex;
+    gap: 10px;
+    padding: 27px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .ende > li {
+    display: inline-block;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .end {
+    justify-content: center;
+  
+  }
