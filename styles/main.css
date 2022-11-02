@@ -710,9 +710,6 @@ ul{
 .perm-box{
   display: flex;
   flex-direction: column;
-}
-
-.perm-box{
   font-size: 15px;
   font-family: 'Poppins';
   color: #677294;
@@ -732,11 +729,11 @@ border-right: 1px solid #677294;
 
 .social-container{
   display: flex; 
+  align-items: center;
 }
 
 .wrapper .icon{
-  position: relative;
-  right: 20px;
+  
   background-color:#EBEBF8;
   border-radius: 50%;
   border:1.5px solid #9C9CA8;
@@ -749,6 +746,7 @@ border-right: 1px solid #677294;
   text-decoration: none;
   justify-content: center;
 }
+
 .wrapper .tooltip {
   position: absolute;
   background-color: #677294;
